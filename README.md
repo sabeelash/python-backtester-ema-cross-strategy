@@ -1,11 +1,10 @@
 # Backtest the EMA Cross Strategy for a Stock
 
 Returns the total returns in percentage when the EMA cross strategy is implemented on a stock.
-- Based on a command-line interface
 
 ## Usage
 
-Gets a candlestick chart for a stock between a period of time
+Gets a candlestick chart for a stock between a period of time.
 
 Positional Arguments:  
 - stock-ticker  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                     stock ticker symbol  
