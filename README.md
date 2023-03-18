@@ -1,6 +1,6 @@
 # Backtest the EMA Cross Strategy for a Stock
 
-Returns the total returns in percentage when the EMA cross strategy is implemented on a stock.
+Returns the total returns in percentage when the stock is bought and sold according to contrasted long-term and short term exponential moving average (EMA).
 
 ## Usage
 
@@ -23,10 +23,6 @@ Options:
 ### Examples
 - ```backtest.py GOOG 2009 01 01 -tn``` - return you will make till now if you started the strategy on Alphabet stock on the first day of 2009.
 - ```backtest.py AAPL 2009 01 01 -e 2018 12 14``` - return you will make till 14/12/2018 if you started the strategy on Apple stock on the first day of 2009.
-
-## The EMA Cross Strategy
-Just wanted to say i'm a novice in Finance so I'll try to explain how it works.
-I don't know whats it called technically but the general idea is to buy stock when the short term EMA crosses the long term EMA downward, you buy and when the short term EMA goes above the long term EMA, then the stock is sold.
 
 ## Acknowledgement
 
